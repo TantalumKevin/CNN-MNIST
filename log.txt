@@ -1,0 +1,13 @@
+Data file has existed.
+Epoch:50, iteration:800, loss: 1.466Finished Training
+Accuracy of the network on the 10000 test images: 98.95
+Accuracy of 0 : 99.48979591836735
+Accuracy of 1 : 99.55947136563877
+Accuracy of 2 : 99.12790697674419
+Accuracy of 3 : 98.91089108910892
+Accuracy of 4 : 99.18533604887983
+Accuracy of 5 : 98.99103139013452
+Accuracy of 6 : 98.8517745302714
+Accuracy of 7 : 99.41634241245136
+Accuracy of 8 : 97.74127310061601
+Accuracy of 9 : 98.1169474727453
