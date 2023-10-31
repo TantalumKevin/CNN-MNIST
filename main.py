@@ -4,6 +4,7 @@ net = network.Net().float()
 trainloader, testloader = predata.predata()
 criterion = torch.nn.CrossEntropyLoss()
 optimizer = torch.optim.SGD(net.parameters(), lr=0.01, momentum=0.9)
+epochs = 100
 
 if torch.cuda.is_available():
     device = torch.device("cuda:0")
@@ -12,7 +13,7 @@ else:
 
 net = net.to(device)
 # 训练网络
-for epoch in range(10):
+for epoch in range(epochs):
     running_loss = 0.0
     for i, data in enumerate(trainloader, 0):
         inputs, labels = data
