@@ -1,0 +1,9 @@
+.idea/
+*.pyc
+.cache/
+workspace/
+data
+loss.png
+*.egg-info
+shapelet/
+test.py
