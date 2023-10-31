@@ -7,3 +7,4 @@ loss.png
 *.egg-info
 shapelet/
 test.py
+*.zip
