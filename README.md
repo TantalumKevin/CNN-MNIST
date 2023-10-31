@@ -42,7 +42,7 @@ CNN是卷积神经网络的简称，它是一种特殊的人工神经网络，�
 │  README.md  #说明文件
 │
 └─MNIST       #数据集文件夹
-   │  norm.npz #归一化后的合并数据集
+   │  norm.npz #归一化后的合并数据集,由于Github文件大小限制，此处并未上传Github
    │
    └─raw #原始数据集
            t10k-images-idx3-ubyte
